@@ -179,6 +179,13 @@ h1 {
   align-content: center;
 }
 
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
 .resume-container {
   margin: 20px 50px;
   color: black;
