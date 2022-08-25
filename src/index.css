@@ -14,7 +14,7 @@ code {
 
 /* my added css */
 *  {
-  background: #ffd6e0;
+  background: #f3134b;
   font-family: 'Shadows Into Light', cursive;
   box-sizing: border-box;
 }
@@ -23,22 +23,22 @@ code {
 
 p {
   font-size: 22px;
-  color: #cf6a87;
+  color: white;
   font-weight: bold;
-  font-family: 'Shadows Into Light', cursive;
+  font-family:'Courier New', Courier, monospace
 }
 
 h1 {
   margin: auto 30px; 
   padding: 10px;
-  color: #660033;
+  color: white;
   font-weight: bold;
   font-family: 'Shadows Into Light', cursive;
 }
 
 
 #myImage {
-  margin: auto 70px;
+  margin: 10px;
 }
 
 #about-container, #image-container, .education-container {
@@ -47,13 +47,13 @@ h1 {
 
 .key-title, .resume, .name, .title, .contact, .education {
   font-weight: bold;
-  color: #660033;
+  color: white;
   font-family: 'Shadows Into Light', cursive;
 }
 
 .name {
   font-size: 4rem;
-  color: #660033;
+  color: white;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -62,15 +62,17 @@ h1 {
 
 .job {
   font-size: 2rem;
-  color: #660033;
+  color: white;
   display: flex;
   justify-content: center;
-  align-content: center;       
+  align-content: center;  
+  font-family: 'Shadows Into Light', cursive;
+     
 }
 
 .school-name {
   font-weight: bolder;
-  color:#788b85
+  color:black
 }
 
 .card {
@@ -126,13 +128,11 @@ h1 {
   overflow: auto;
 }
 
-/* #footer {
-  margin: auto 700px;
-  padding: 5px;
-} */
+
 
 .icon {
   padding: 10px;
+  margin: 10px;
 }
 
 .nav {
@@ -155,7 +155,7 @@ h1 {
 .project-description {
   background-color: white;
   font-weight: normal;
-  color: #660033;
+  color: white;
 }
 
 .project-icons {
@@ -181,7 +181,7 @@ h1 {
 
 .resume-container {
   margin: 20px 50px;
-  color: #cf6a87;
+  color: black;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -190,12 +190,12 @@ h1 {
 }
 
 .nav-link, .link, .btn {
-  color: #660033;
+  color: white;
   font-weight: bold;
 }
 
 .nav-link:hover, .link:hover {
-  color: #cf6a87;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
@@ -209,8 +209,10 @@ h1 {
 }
 
 .my-image {
-  border-radius: 50%;
+  /* border-radius: 80%; */
   padding: 50px 50px;
+  width: 400px;
+  height: auto;
 }
 
 .contact-container {
@@ -234,18 +236,19 @@ h1 {
 
   .name {
     font-size: 35px;
-    color: #660033;
+    color: white;
     letter-spacing: normal;
   }
   
   .job {
     font-size: 30px;
-    color: #660033;
+    color: white;
   }
 
   .nav {
     justify-content: flex-end;
     font-size: 22px;
+
   }
 
   .contact-icons, .icon-text {

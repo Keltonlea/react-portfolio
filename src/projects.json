@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "name": "COMING SOON",
+      "image": "",
+      "github": "",
+      "deployedapp": "",
+      "description": "",
+      "skills": "React | MERN |  |  API | Bootstrap"
+      },
+      {
+      "id": 2,
+      "name": "Flix Finder",
+      "image": "",
+      "github": "https://github.com/Keltonlea/Project-1",
+      "deployedapp": "https://keltonlea.github.io/Project-1/",
+      "description": "Flix allows users to search movies and find poster images, plots, cast, and more.",
+      "skills": "HTML | CSS | JavaScript | IMDB and OMDB APIs"
+      },
+      {
+      "id": 3,
+      "name": "Dungeons and Dragons Character Creator",
+      "image": "",
+      "github": "https://github.com/Jean424/DnD-Character-Creater",
+      "deployedapp": "https://guarded-bayou-66527.herokuapp.com/",
+      "description": "This project is a CMS-style site where users can create and save their own characters for their DnD adventures.",
+      "skills": "Express | MySQL | API | Handlebars | MVC | ORM | Express"
+      },
+      {
+      "id": 4,
+      "name": "Text Editor",
+      "image": "",
+      "github": "https://github.com/Keltonlea/J.A.T.E",
+      "deployedapp": "https://pure-bastion-96627.herokuapp.com/",
+      "description": "This project is an application that allows users to utilize a text editor for code snippets or otherwise for use on or offline",
+      "skills": "IndexDB | Service Workers | Web Manifest"
+      },
+      {
+      "id": 5,
+      "name": "The Tech Blog",
+      "image": "",
+      "github": "https://github.com/Keltonlea/tech-blog",
+      "deployedapp": "https://mvc-tech-blog-kelton.herokuapp.com/",
+      "description": "A blog where developers can publish their blog posts and comment on other developers post and can create sign up or login into an account.",
+      "skills": "Handlebars | Sequelize | Express | API | MVC | ORM"
+      },
+      {
+      "id": 6,
+      "name": "Work Day Scheduler",
+      "image": "",
+      "github": "https://github.com/Keltonlea/uw-homework-5",
+      "deployedapp": "https://keltonlea.github.io/uw-homework-5/",
+      "description": "This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day.",
+      "skills": "JavaScript | jQuery | API | DOM"
+      },
+      {
+      "id": 7,
+      "name": "Note Taker",
+      "image": "/images/note-taker.png",
+      "github": "https://github.com/Keltonlea/note-tracking-app",
+      "description": "This application was created to allow users to read, write, save, and delete notes.",
+      "skills": "Node | Express | AJAX | jQuery"
+      }
+  ]
