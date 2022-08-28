@@ -201,10 +201,9 @@ h1 {
   font-weight: bold;
 }
 
-.nav-link:hover, .link:hover {
+.nav-link:hover {
   color: black;
   font-weight: bold;
-  text-decoration: none;
 }
 
 .active {
