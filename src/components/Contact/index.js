@@ -1,48 +1,64 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helper';
+// import { validateEmail } from '../../utils/helper';
 import { Row, Col } from 'react-bootstrap'; 
 import Resume from '../../assets/images/kelton-resume-2022.pdf'
 
-function ContactForm() {
-    // manage form data, empty out the initialize values
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    // deconstructing the formState object into it's named properties
-    const { name, email, message } = formState;
-    // error message
-    const [errorMessage, setErrorMessage] = useState('');
 
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-    
-                if(!isValid) {
-                    setErrorMessage('Your email is invalid');
-                } else {
-                    setErrorMessage('');
-                }
-            // checking if name and message has input 
-            } else {
-                if (!e.target.value.length) {
-                  setErrorMessage(`${e.target.name} is required.`);
-                } else {
-                  setErrorMessage('');
-                } 
-        }
-        // setFormState is updating formState for the property
-        if (!errorMessage) {
-        setFormState({...formState, [e.target.name]: e.target.value })
-        }
-    }
+export default function ContactForm() {
+    return(
+        
+        <form className="wow pulse" action="https://formspree.io/example@email.com" method="POST">
+                    <h1 data-testid='h1tag' className="contact">contact me</h1>
 
-    // form submit 
-    function handleSubmit(e) {
-        e.preventDefault();
-  
-    }
-
-return (
-    <section>
-        <h1 data-testid='h1tag' className="contact">contact me</h1>
+            <div className="form-group">
+                <div className="row">
+                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                        <input
+                            type="text"
+                            name="name"
+                            className="form-control form-control-lg"
+                            id="name"
+                            placeholder="Name"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="form-group hidden">
+                <div className="row">
+                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                        <input
+                            type="email"
+                            name="_replyto"
+                            className="form-control form-control-lg"
+                            id="exampleFormControlInput1"
+                            placeholder="Your email"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="form-group hiddenRight">
+                <div className="row">
+                    <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                        <textarea
+                            name="message"
+                            className="form-control form-control-lg"
+                            id="exampleFormControlTextarea1"
+                            rows="3"
+                            placeholder="Write your message..."
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="row text-md-right text-sm-center">
+                <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                    <button
+                        type="submit"
+                        className="btn btn-primary mb-2 hidden">
+                        Submit
+                    </button>
+                </div>
+            </div>
+            <section>
 
         <div className="contact-icons">
         <Row>
@@ -140,7 +156,8 @@ return (
         </div>
 
     </section>
-    );
-}
+
+        </form>
+        
+    )};
     
-export default ContactForm;
