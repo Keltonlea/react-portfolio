@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ea06b4e8.css",
-    "main.js": "/react-portfolio/static/js/main.878ce691.js",
+    "main.css": "/react-portfolio/static/css/main.a1bf82b6.css",
+    "main.js": "/react-portfolio/static/js/main.616a8ac9.js",
     "static/media/echo.JPG": "/react-portfolio/static/media/echo.eddc0fe2cb931c5f1c48.JPG",
     "static/media/kelton-resume-2022.pdf": "/react-portfolio/static/media/kelton-resume-2022.42f48bf6261d5568271d.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.ea06b4e8.css.map": "/react-portfolio/static/css/main.ea06b4e8.css.map",
-    "main.878ce691.js.map": "/react-portfolio/static/js/main.878ce691.js.map"
+    "main.a1bf82b6.css.map": "/react-portfolio/static/css/main.a1bf82b6.css.map",
+    "main.616a8ac9.js.map": "/react-portfolio/static/js/main.616a8ac9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea06b4e8.css",
-    "static/js/main.878ce691.js"
+    "static/css/main.a1bf82b6.css",
+    "static/js/main.616a8ac9.js"
   ]
 }
