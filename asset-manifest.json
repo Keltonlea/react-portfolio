@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.07e7d297.css",
-    "main.js": "/static/js/main.6fcbfbba.js",
-    "static/media/echo.JPG": "/static/media/echo.eddc0fe2cb931c5f1c48.JPG",
-    "static/media/kelton-resume-2022.pdf": "/static/media/kelton-resume-2022.42f48bf6261d5568271d.pdf",
-    "index.html": "/index.html",
-    "main.07e7d297.css.map": "/static/css/main.07e7d297.css.map",
-    "main.6fcbfbba.js.map": "/static/js/main.6fcbfbba.js.map"
+    "main.css": "/react-portfolio/static/css/main.ea06b4e8.css",
+    "main.js": "/react-portfolio/static/js/main.878ce691.js",
+    "static/media/echo.JPG": "/react-portfolio/static/media/echo.eddc0fe2cb931c5f1c48.JPG",
+    "static/media/kelton-resume-2022.pdf": "/react-portfolio/static/media/kelton-resume-2022.42f48bf6261d5568271d.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.ea06b4e8.css.map": "/react-portfolio/static/css/main.ea06b4e8.css.map",
+    "main.878ce691.js.map": "/react-portfolio/static/js/main.878ce691.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e7d297.css",
-    "static/js/main.6fcbfbba.js"
+    "static/css/main.ea06b4e8.css",
+    "static/js/main.878ce691.js"
   ]
 }
