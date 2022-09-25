@@ -20,7 +20,7 @@
       {
       "id": 3,
       "name": "Dungeons and Dragons Character Creator",
-      "image": "https://github.com/keltonlea/dnd-character-creator/raw/public/images/ddscreenshot.png",
+      "image": "https://github.com/keltonlea/dnd-character-creator/blob/main/public/images/ddscreenshot.png?raw=true",
       "github": "https://github.com/Jean424/DnD-Character-Creater",
       "deployedapp": "https://guarded-bayou-66527.herokuapp.com/",
       "description": "This project is a CMS-style site where users can create and save their own characters for their DnD adventures.",
