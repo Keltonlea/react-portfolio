@@ -23,7 +23,7 @@ function About() {
         <br></br>
             Before becoming a stay at home mom I worked in customer service and product management
           for an art museum. I was ready to continue my education and jump into a field I 
-          feel excited about: web development. I graduated in September 2022 with experience in HTML, CSS, Javascript, jQuery,
+          felt excited about: web development. I graduated in September 2022 with experience in HTML, CSS, Javascript, jQuery,
           Bootstrap, the MERN stack, MYSQL, NOSQL, and git. In my spare time I like to spend as much time as possible with my daughter, 
           hike, read, paddle board and travel when I can. 
         <br></br>
