@@ -7,7 +7,7 @@ import Resume from '../../assets/images/kelton-resume-2022.pdf'
 export default function ContactForm() {
     return(
         
-        <form className="wow pulse" action="https://formspree.io/example@email.com" method="POST">
+        <form className="wow pulse" action="https://formspree.io/f/mzbwrgjq" method="POST">
                     <h1 data-testid='h1tag' className="contact">contact me</h1>
 
             <div className="form-group">
