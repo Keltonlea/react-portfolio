@@ -11,7 +11,7 @@
       {
       "id": 2,
       "name": "Flix Finder",
-      "image": "https://github.com/keltonlea/Project-1/raw/assets/project-1-screenshot.png",
+      "image": "https://github.com/keltonlea/Project-1/raw/main/assets/project-1-screenshot.png",
       "github": "https://github.com/Keltonlea/Project-1",
       "deployedapp": "https://keltonlea.github.io/Project-1/",
       "description": "Flix allows users to search movies and find poster images, plots, cast, and more.",
