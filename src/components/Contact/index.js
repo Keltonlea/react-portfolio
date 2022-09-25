@@ -143,6 +143,10 @@ export default function ContactForm() {
           Full Stack Boot Camp - Certification 
           <br></br>
           <br></br>
+          <span className="school-name">Whatcom Community College</span><br></br>
+          Computer Information Systems Course
+          <br></br>
+          <br></br>
           <span className="school-name">Washington State University</span><br></br>
           Social Sciences, concentrations: Political Science, Sociology, Psychology - BS
           <br></br>
