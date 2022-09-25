@@ -1,12 +1,12 @@
 [
     {
       "id": 1,
-      "name": "COMING SOON",
+      "name": "CODE CRUSH",
       "image": "",
       "github": "",
       "deployedapp": "",
-      "description": "",
-      "skills": "React | MERN |  |  API | Bootstrap"
+      "description": "A dating app for web developers",
+      "skills": "React | MERN | GRAPHQL |  Apollo | React-Bootstrap"
       },
       {
       "id": 2,
