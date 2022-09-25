@@ -15,15 +15,15 @@ function About() {
       <p className="job">full stack web developer</p>
       <h2 className="education">a little about me</h2>
         <p>
-             Hi! I'm Kelton and I was born in Mountain View, California. In highschool, my family
-          and I moved to Nashville, Tennessee where I then attended University of Tennessee, 
-          before moving back to San Francisco, California. Currently I live in Bellingham, WA which I am happy
+             Hi! I'm Kelton and I was born in Mountain View, California. After highschool I moved to the south 
+             where I attended University of Tennessee before moving back west and finishing my education at 
+             Washington State University. Currently I live in Bellingham, WA which I am happy
           to call my home for the last 9 years. 
         <br></br>
         <br></br>
             Before becoming a stay at home mom I worked in customer service and product management
-          for an art museum. I decided it was time to learn a new skill and jump into a field I 
-          feel excited about: web development. I graduated September 2022 with experience in HTML, CSS, Javascript, jQuery,
+          for an art museum. I was ready to continue my education and jump into a field I 
+          feel excited about: web development. I graduated in September 2022 with experience in HTML, CSS, Javascript, jQuery,
           Bootstrap, the MERN stack, MYSQL, NOSQL, and git. In my spare time I like to spend as much time as possible with my daughter, 
           hike, read, paddle board and travel when I can. 
         <br></br>
